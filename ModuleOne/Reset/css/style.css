@@ -1,0 +1,34 @@
+/* developer styles go here */
+
+body {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 100%; 
+    margin: 0 auto; 
+}
+
+
+header, main {
+    width: 1200px;
+}
+
+h1,h2,
+.container, 
+ul, 
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /*Justify content- horizontal axis*/
+}
+
+section h2 {
+    width: 1200px;
+}
+
+p {
+    
+
+}

@@ -1,0 +1,35 @@
+/* Our Custom Reset File */ 
+/* A hybrid of Andy Bell's reset */
+*, 
+**::before,
+::after { /* Everything before, everything after */
+  box-sizing: border-box; 
+}
+
+body,
+h1,h2,h3,h4,h5
+ul,ol,p,dl
+figure, figcaption, blockquote,
+li, dd {
+  padding: 0;
+  margin: 0; /* Removes all margin and padding */ 
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+input, button,
+textarea, select {
+  font: inherit; 
+}
+
+img {
+  display: block; /*changes image to block level element */
+  max-width: 100%; /*Sets the max width of the image to 100% */
+  height: auto;
+}
+
+article > * + * {
+  margin-top: 1em;
+}

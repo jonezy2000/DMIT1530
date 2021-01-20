@@ -1,0 +1,42 @@
+
+body {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+header, main, h1 {
+    width: 1200px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1 {
+    margin: 40px;
+}
+
+.image-container {
+    width: 300px;
+}
+
+/* we can get high quality photos from pixabay */
+/* pixabay doesnt do svgs so we use google */
+
+/* to resize an svg file, you have to install a snap in on illustrator*/
+/* svgs have basically replaced gifs */
+
+/* in this course, we will already be given resized svgs, so we don't need illustrator */
+
+
+/* Once we compress images to 1920 -> 300, we see no difference in quality or size
+because of how we set up our sizing */
+
+
+/* we can use a website called squoosh or another one called tinypng
+ to alter images to save space */
+
+ /* we can use a website called svgminify to
